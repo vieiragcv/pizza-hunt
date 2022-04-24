@@ -37,7 +37,6 @@ const handleAddTopping = event => {
 };
 
 const handlePizzaSubmit = event => {
-
   event.preventDefault();
 
   const pizzaName = $pizzaForm.querySelector('#pizza-name').value;
